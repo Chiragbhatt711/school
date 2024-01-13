@@ -10,6 +10,8 @@
         <title>
             @yield('title', config('app.name', 'Skuul'))
         </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         @vite('resources/css/app.css')
         <livewire:styles />
     </head>
@@ -34,11 +36,11 @@
                         </div>
                     </div>
                     <main class="p-4" id="main">
-                        @yield('content') 
+                        @yield('content')
                     </main>
                 </div>
             </div>
-        </div> 
+        </div>
     @livewire('display-status')
     </body>
     <livewire:scripts />

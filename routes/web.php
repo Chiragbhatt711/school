@@ -17,11 +17,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect()->route('dashboard');
+    return view('home');
+    // return redirect()->route('dashboard');
 })->name('home');
 
 Route::get('/home', function () {
-    return redirect()->route('dashboard');
+    return view('home');
+    // return redirect()->route('dashboard');
 });
 
 Route::middleware(['guest'])->group(function () {

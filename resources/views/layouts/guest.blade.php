@@ -8,6 +8,8 @@
         <title>
             @yield('title', config('app.name', env('APP_NAME')))
         </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <!-- Styles -->
         @vite('resources/css/app.css')
