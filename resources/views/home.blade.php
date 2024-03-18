@@ -4,24 +4,26 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Free School App, One Stop Solution for all Smart School</title>
+    <title>E School, One Stop Solution for all Smart School</title>
     <meta name="keyword" content="Free school management software, School administration software, Student information system, Education management software, Online gradebook, Classroom management, Teacher scheduling, Student attendance tracking, Parent-teacher communication, School records management, Exam and assessment management, Student enrollment system, Timetable and scheduling, Fee management, Academic management, Report card generation, School communication platform, Learning management system &#40;LMS&#41;, School ERP " />
-    <meta name="description" content="Free School App - One-stop solution to "Unlock the potential of education with our free school management software and school app. Simplify administrative tasks, enhance communication, and keep parents, teachers, and students connected. Get started for free and transform the way you manage your school!"" />
-    <meta name="author" content="Free School App">
+    <meta name="description" content="E School - One-stop solution to "Unlock the potential of education with our free school management software and school app. Simplify administrative tasks, enhance communication, and keep parents, teachers, and students connected. Get started for free and transform the way you manage your school!"" />
+    <meta name="author" content="E School">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://freeschoolapp.com/assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/favicon.jpg') }}" />
 
     <!-- CSS here -->
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/frontend/css/bootstrap.min.css" />
+    {{-- <link rel="stylesheet" href="{{ asset('front/css/all.min.css') }}" /> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"referrerpolicy="no-referrer" />
     {{-- <link rel="stylesheet" href="https://freeschoolapp.com/assets/frontend/css/LineIcons.2.0.css" /> --}}
-    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/vendor/font-awesome/css/all.min.css">
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/frontend/css/animate.css" />
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/frontend/css/tiny-slider.css" />
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/frontend/css/glightbox.min.css" />
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/vendor/select2/css/select2.min.css">
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/vendor/sweetalert/sweetalert-custom.css">
-    <link rel="stylesheet" href="https://freeschoolapp.com/assets/frontend/css/saas_main.css" />
+    {{-- <link rel="stylesheet" href="{{ asset('front/css/lineicons.css') }}" /> --}}
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('front/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/animate.css') }}" />
+    <link rel="stylesheet" href="{{ asset('front/css/tiny-slider.css') }}" />
+    <link rel="stylesheet" href="{{ asset('front/css/glightbox.min.css') }}" />
+    <link rel="stylesheet" href="{{ asset('front/css/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/sweetalert-custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('front/css/saas_main.css') }}" />
 
     <!-- Google Analytics -->
     <!-- Google tag (gtag.js) -->
@@ -44,9 +46,9 @@
         document.documentElement.style.setProperty('--thm-footer-text', 'rgb(255, 255, 255)');
     </script>
 
-    <script src="https://freeschoolapp.com/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="{{ asset('front/js/jquery.min.js') }}"></script>
     <script type="text/javascript">
-        var base_url = 'https://freeschoolapp.com/';
+        var base_url = "{{ route('home') }}";
         var csrfData = {"school_csrf_name":"001d9bde5e5442936d05448770755c3d"};
         $(function($) {
             $.ajaxSetup({
@@ -77,8 +79,8 @@
                     <div class="nav-inner">
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="https://freeschoolapp.com/">
-                                <img src="https://5.imimg.com/data5/AV/AK/MY-18979886/school-management-software-500x500.png" alt="Logo">
+                            <a class="navbar-brand" href="{{ route('home') }}">
+                                <img src="{{ asset('front/logo.webp') }}" alt="Logo">
                             </a>
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ms-auto">
@@ -102,7 +104,7 @@
                             <!-- navbar collapse -->
                             <div class="header-btn">
                             <div class="button add-list-button">
-                                                                <a href="https://freeschoolapp.com/authentication/index" class="btn">Login</a>
+                                                                <a href="{{ route('login') }}" class="btn">Login</a>
                                                             </div>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -127,8 +129,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="hero-content">
-                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">"Free School App: Empower Your School for Free"</h1>
-                        <p class="wow fadeInLeft" data-wow-delay=".6s">"Experience the future of education with our "Free School App" where you can Connect, communicate, and collaborate effortlessly with students, parents, and teachers.</p>
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">"E School: Empower Your School for Free"</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">"Experience the future of education with our "E School" where you can Connect, communicate, and collaborate effortlessly with students, parents, and teachers.</p>
                         {{-- <div class="button wow fadeInLeft" data-wow-delay=".8s">
                         <a href="https://freeschoolapp.com/demoschool" class="btn"><i class='fas fa-globe'></i> Demo School</a><a href="https://freeschoolapp.com/#pricing" class="btn btn-alt"><i class='fas fa-coins'></i> Plan Price</a></div> --}}
                     </div>
@@ -152,7 +154,7 @@
                     <div class="section-title">
                         <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">Your Experience Gets Better And Better Over Time.</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">A "Free School App" is a digital tool that enhances the educational experience by offering various features for students, teachers, parents, and administrators within schools or educational institutions. It provides resources, communication tools, administrative functions, and more to improve school life with minimal fees.</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">A "E School" is a digital tool that enhances the educational experience by offering various features for students, teachers, parents, and administrators within schools or educational institutions. It provides resources, communication tools, administrative functions, and more to improve school life with minimal fees.</p>
                     </div>
                 </div>
             </div>
@@ -180,7 +182,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
                         <i class="fas fa-credit-card"></i>
                         <h3>Powerfull Fees Management</h3>
-                        <p>Free School App is integrated with the most advanced fee management features like  Automated Fee Collection, Fee Tracking, Fee Structure Customization, Financial Reports, Notifications, Fee Waivers and Scholarships, and many more.</p>
+                        <p>E School is integrated with the most advanced fee management features like  Automated Fee Collection, Fee Tracking, Fee Structure Customization, Financial Reports, Notifications, Fee Waivers and Scholarships, and many more.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -189,7 +191,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
                         <i class="fas fa-id-card-alt"></i>
                         <h3>ID Card Generator</h3>
-                        <p>The ID Card Generator feature in your free school app allows you to create and customize identification cards, Certificate and other Documents for students, staff, or participants.</p>
+                        <p>The ID Card Generator feature in your E School allows you to create and customize identification cards, Certificate and other Documents for students, staff, or participants.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -198,7 +200,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
                         <i class="fas fa-headphones"></i>
                         <h3>Online Fee collection</h3>
-                        <p>The free school app includes an inbuilt Online Fee Collection facility, which enables convenient and secure payment of fees through many online methods as per parents' convenience.</p>
+                        <p>The E School includes an inbuilt Online Fee Collection facility, which enables convenient and secure payment of fees through many online methods as per parents' convenience.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -207,7 +209,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
                         <i class="fa fa-registered"></i>
                         <h3>Custom domain name</h3>
-                        <p>The Custom Domain facility in your free school app allows schools and educational institutions to personalize their online presence by using their own custom domain name.</p>
+                        <p>The Custom Domain facility in your E School allows schools and educational institutions to personalize their online presence by using their own custom domain name.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -216,7 +218,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
                         <i class="fa fa-calendar"></i>
                         <h3>Events Management</h3>
-                        <p>Events Management in your free school app facilitates the planning, organization, and promotion of various school-related events. you can manage them as per your requirements.</p>
+                        <p>Events Management in your E School facilitates the planning, organization, and promotion of various school-related events. you can manage them as per your requirements.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -225,7 +227,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
                         <i class="fa fa-bed"></i>
                         <h3>Hostel Management</h3>
-                        <p>Hostel management features in your free school app are designed to help educational institutions efficiently oversee and administer their on-campus accommodations.</p>
+                        <p>Hostel management features in your E School are designed to help educational institutions efficiently oversee and administer their on-campus accommodations.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -234,7 +236,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
                         <i class="fa fa-users"></i>
                         <h3>Human Resource</h3>
-                        <p>Human Resource Management (HRM) in the context of your free school app refers to the capability to efficiently handle various HR-related tasks within the educational institution.</p>
+                        <p>Human Resource Management (HRM) in the context of your E School refers to the capability to efficiently handle various HR-related tasks within the educational institution.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -243,7 +245,7 @@
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
                         <i class="fa fa-list-alt"></i>
                         <h3>Inventory Management</h3>
-                        <p>Inventory Management within your free school app involves tracking and controlling the school's physical and digital assets efficiently.</p>
+                        <p>Inventory Management within your E School involves tracking and controlling the school's physical and digital assets efficiently.</p>
                     </div>
                     <!-- End Single Feature -->
                 </div>
@@ -279,7 +281,7 @@
                     <div class="section-title">
                         <h3 class="wow zoomIn" data-wow-delay=".2s">Pricing</h3>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">Pricing Plan</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">The Free School App offers a range of valuable features to enhance the educational experience:</p>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">The E School offers a range of valuable features to enhance the educational experience:</p>
                     </div>
                 </div>
             </div>
@@ -506,41 +508,41 @@
                                                 <div class="accordion-item">
                             <h2 class="accordion-header" id="heading0">
                                 <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq0" aria-expanded="true" aria-controls=collapseOne>
-                                    <span class=title><span class="serial">1</span>What is the Free School App, and what does it offer to educational institutions?</span><i class="lni lni-plus"></i>
+                                    <span class=title><span class="serial">1</span>What is the E School, and what does it offer to educational institutions?</span><i class="lni lni-plus"></i>
                                 </button>
                             </h2>
                             <div id="faq0" class="accordion-collapse collapse" aria-labelledby="heading0" data-bs-parent="#accordionExample">
-                                <div class="accordion-body"><p><span xss=removed>The Free School App is a comprehensive School Management Software that provides educational institutions with tools to manage various aspects of school operations. It includes features for attendance tracking, fee management, online classes, event scheduling, and much more.</span><br></p></div>
+                                <div class="accordion-body"><p><span xss=removed>The E School is a comprehensive School Management Software that provides educational institutions with tools to manage various aspects of school operations. It includes features for attendance tracking, fee management, online classes, event scheduling, and much more.</span><br></p></div>
                             </div>
                         </div>
                                             <div class="accordion-item">
                             <h2 class="accordion-header" id="heading1">
                                 <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq1" aria-expanded="" aria-controls=collapseOne>
-                                    <span class=title><span class="serial">2</span>How do I get started with the Free School App for my school or educational institution?</span><i class="lni lni-plus"></i>
+                                    <span class=title><span class="serial">2</span>How do I get started with the E School for my school or educational institution?</span><i class="lni lni-plus"></i>
                                 </button>
                             </h2>
                             <div id="faq1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
-                                <div class="accordion-body"><p><span xss=removed>Getting started is easy. You can sign up for the Free School App on our website, and our onboarding process will guide you through the setup and customization according to your school's needs.</span><br></p></div>
+                                <div class="accordion-body"><p><span xss=removed>Getting started is easy. You can sign up for the E School on our website, and our onboarding process will guide you through the setup and customization according to your school's needs.</span><br></p></div>
                             </div>
                         </div>
                                             <div class="accordion-item">
                             <h2 class="accordion-header" id="heading2">
                                 <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq2" aria-expanded="" aria-controls=collapseOne>
-                                    <span class=title><span class="serial">3</span>Is the Free School App truly free, or are there hidden charges?</span><i class="lni lni-plus"></i>
+                                    <span class=title><span class="serial">3</span>Is the E School truly free, or are there hidden charges?</span><i class="lni lni-plus"></i>
                                 </button>
                             </h2>
                             <div id="faq2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
-                                <div class="accordion-body"><p><span xss=removed>The core features of the Free School App are indeed free. However, certain advanced features or additional services may have associated fees. You can choose the level of functionality that best suits your school's requirements.</span><br></p></div>
+                                <div class="accordion-body"><p><span xss=removed>The core features of the E School are indeed free. However, certain advanced features or additional services may have associated fees. You can choose the level of functionality that best suits your school's requirements.</span><br></p></div>
                             </div>
                         </div>
                                             <div class="accordion-item">
                             <h2 class="accordion-header" id="heading3">
                                 <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq3" aria-expanded="" aria-controls=collapseOne>
-                                    <span class=title><span class="serial">4</span>What platforms and devices are compatible with the Free School App?</span><i class="lni lni-plus"></i>
+                                    <span class=title><span class="serial">4</span>What platforms and devices are compatible with the E School?</span><i class="lni lni-plus"></i>
                                 </button>
                             </h2>
                             <div id="faq3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
-                                <div class="accordion-body"><p><span xss=removed>The Free School App is designed to work on a wide range of devices and platforms, including web browsers, iOS, and Android, ensuring accessibility for both administrators and users.</span><br></p></div>
+                                <div class="accordion-body"><p><span xss=removed>The E School is designed to work on a wide range of devices and platforms, including web browsers, iOS, and Android, ensuring accessibility for both administrators and users.</span><br></p></div>
                             </div>
                         </div>
                                             <div class="accordion-item">
@@ -550,7 +552,7 @@
                                 </button>
                             </h2>
                             <div id="faq4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
-                                <div class="accordion-body"><p><span xss=removed>Yes, the Free School App allows for customization, enabling you to add your school's logo, colors, and personalize content and features to align with your institution's identity and requirements.</span><br></p></div>
+                                <div class="accordion-body"><p><span xss=removed>Yes, the E School allows for customization, enabling you to add your school's logo, colors, and personalize content and features to align with your institution's identity and requirements.</span><br></p></div>
                             </div>
                         </div>
                                             <div class="accordion-item">
@@ -570,7 +572,7 @@
                                 </button>
                             </h2>
                             <div id="faq6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
-                                <div class="accordion-body"><p><span xss=removed>The Free School App takes data privacy seriously and follows all relevant regulations. Data is securely stored, and user access is controlled, ensuring compliance with data protection laws</span><br></p></div>
+                                <div class="accordion-body"><p><span xss=removed>The E School takes data privacy seriously and follows all relevant regulations. Data is securely stored, and user access is controlled, ensuring compliance with data protection laws</span><br></p></div>
                             </div>
                         </div>
                                             <div class="accordion-item">
@@ -626,7 +628,7 @@
                                             <div class="accordion-item">
                             <h2 class="accordion-header" id="heading12">
                                 <button class="accordion-button collapsed" type=button data-bs-toggle=collapse data-bs-target="#faq12" aria-expanded="" aria-controls=collapseOne>
-                                    <span class=title><span class="serial">13</span>Is it possible to integrate the Free School App with other software or platforms we use?</span><i class="lni lni-plus"></i>
+                                    <span class=title><span class="serial">13</span>Is it possible to integrate the E School with other software or platforms we use?</span><i class="lni lni-plus"></i>
                                 </button>
                             </h2>
                             <div id="faq12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
@@ -749,11 +751,11 @@
                         <!-- Single Widget -->
                         <div class="single-footer f-about">
                             <div class="logo">
-                                <a href="https://freeschoolapp.com/">
-                                    <img src="https://freeschoolapp.com/uploads/app_image/logo-small.png" alt="#">
+                                <a href="{{ route('home') }}">
+                                    <img src="{{ asset('front/logo.webp') }}" alt="#">
                                 </a>
                             </div>
-                            <p>"Experience the future of education with our free school app. Connect, communicate, and collaborate effortlessly with students, parents, and teachers. Streamline administrative tasks, share resources, and enhance the learning experience. Join us on a journey to transform education. Get started today!"</p>
+                            <p>"Experience the future of education with our E School. Connect, communicate, and collaborate effortlessly with students, parents, and teachers. Streamline administrative tasks, share resources, and enhance the learning experience. Join us on a journey to transform education. Get started today!"</p>
                         </div>
                         <!-- End Single Widget -->
                     </div>
@@ -778,14 +780,14 @@
                                 <div class="single-footer f-link address">
                                     <h3>Address</h3>
                                     <ul>
-                                        <li class="clearfix"><i class="lni lni-map-marker"></i> <div style="margin-left: 47px;">Review India Building Nowapara Sukanta Pally Road Kolkata 700059</div></li>
-                                        <li class="clearfix"><i class="lni lni-phone"></i> +916289295096</li>
-                                        <li class="clearfix"><i class="lni lni-envelope"></i> support@freeschoolapp.com</li>
+                                        <li class="clearfix"><i class="lni lni-map-marker"></i> <div style="margin-left: 47px;">Shyamal crossroad, ahmedabad 380015</div></li>
+                                        <li class="clearfix"><i class="lni lni-phone"></i> +91 7984322008</li>
+                                        <li class="clearfix"><i class="lni lni-envelope"></i> support@eschool.com</li>
                                     </ul>
                                 </div>
                                 <!-- End Single Widget -->
                             </div>
-                            <div class="col-lg-4 col-md-6 col-12">
+                            {{-- <div class="col-lg-4 col-md-6 col-12">
                                 <!-- Single Widget -->
                                 <div class="single-footer f-link">
                                     <h3>Social Link</h3>
@@ -803,7 +805,7 @@
                                         </ul>
                                 </div>
                                 <!-- End Single Widget -->
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -813,13 +815,13 @@
                 <div class="container d-flex justify-content-between align-items-center">
                     <div class="copyright-text">
                         <div class="footer-copyright__content">
-                            <span>© 2023 Free School App (Managed by Review India Software and Advertising Pvt Ltd)</span>
+                            <span>© 2023 e-school </span>
                         </div>
                     </div>
-                    <div class="payment-logo">
+                    {{-- <div class="payment-logo">
                         <img src="https://freeschoolapp.com/assets/frontend/images/saas/92e97dcbc5cd3347a1d3d2f898f2d2ec.png" alt="">
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 
@@ -838,13 +840,14 @@
 
 
     <!-- ========================= JS here ========================= -->
-    <script src="https://freeschoolapp.com/assets/frontend/js/bootstrap.min.js"></script>
-    <script src="https://freeschoolapp.com/assets/frontend/js/wow.min.js"></script>
-    <script src="https://freeschoolapp.com/assets/frontend/js/tiny-slider.js"></script>
-    <script src="https://freeschoolapp.com/assets/frontend/js/glightbox.min.js"></script>
-    <script src="https://freeschoolapp.com/assets/frontend/js/saas_main.js"></script>
-    <script src="https://freeschoolapp.com/assets/vendor/select2/js/select2.full.min.js"></script>
-    <script src="https://freeschoolapp.com/assets/vendor/sweetalert/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"referrerpolicy="no-referrer"></script>
+    <script src="{{ asset('front/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('front/js/wow.min.js') }}"></script>
+    <script src="{{ asset('front/js/tiny-slider.js') }}"></script>
+    <script src="{{ asset('front/js/glightbox.min.js') }}"></script>
+    <script src="{{ asset('front/js/saas_main.js') }}"></script>
+    <script src="{{ asset('front/js/select2.full.min.js') }}"></script>
+    <script src="{{ asset('front/js/sweetalert.min.js') }}"></script>
 </body>
 </html>
 
@@ -942,12 +945,16 @@
         </div>
     </div>
 </div>
-<!-- Start of Glassix WhatsApp Widget -->
+<!-- Start of Glassix Chat Widget -->
 <script>
-var glassixWidgetOptions = {"numbers":[{"number":"916289295096","name":"Customer Support","subtitle":"Contact us 24/7"},{"number":"916289295096","name":"Sales Team","subtitle":""}],"left":true,"ltr":true,"popupText":"Need help?\nChat with us on WhatsApp","title":"Hi There 👋","subTitle":"Click to start a conversation"};
-!function (t) { var e = function () { window.requirejs && !window.whatsAppWidgetClient && (requirejs.config({ paths: { GlassixWhatsAppWidgetClient: "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js" } }), require(["GlassixWhatsAppWidgetClient"], function (t) { window.whatsAppWidgetClient = new t(window.glassixWidgetOptions), whatsAppWidgetClient.attach() })), window.GlassixWhatsAppWidgetClient && "function" == typeof window.GlassixWhatsAppWidgetClient ? (window.whatsAppWidgetClient = new GlassixWhatsAppWidgetClient(t), whatsAppWidgetClient.attach()) : i() }, i = function () { a.onload = e, a.src = "https://cdn.glassix.net/clients/whatsapp.widget.1.2.min.js", s && s.parentElement && s.parentElement.removeChild(s), n.parentNode.insertBefore(a, n) }, n = document.getElementsByTagName("script")[0], s = document.createElement("script"); s.async = !0, s.type = "text/javascript", s.crossorigin = "anonymous", s.id = "glassix-whatsapp-widget-script"; var a = s.cloneNode(); s.onload = e, s.src = "https://cdn.glassix.com/clients/whatsapp.widget.1.2.min.js", !document.getElementById(s.id) && document.body && (n.parentNode.insertBefore(s, n), s.onerror = i) }(glassixWidgetOptions);
-</script>
-<!-- End of Glassix WhatsApp Widget -->
+    var widgetOptions = {
+         apiKey: "0c4ee3bb-5e47-4963-b1c3-a1759b20eddc",
+         snippetId: "JR88APpMeab4KNwPwH2w"
+    };
+
+    (function(n){var u=function(){GlassixWidgetClient&&typeof GlassixWidgetClient=="function"?(window.widgetClient=new GlassixWidgetClient(n),widgetClient.attach(),window.glassixWidgetScriptLoaded&&window.glassixWidgetScriptLoaded()):f()},f=function(){r.onload=u;r.src="https://cdn.glassix.net/clients/widget.1.2.min.js";i.parentNode.removeChild(t);i.parentNode.insertBefore(r,i)},i=document.getElementsByTagName("script")[0],t=document.createElement("script"),r;(t.async=!0,t.type="text/javascript",t.crossorigin="anonymous",t.id="glassix-widget-script",r=t.cloneNode(),t.onload=u,t.src="https://cdn.glassix.com/clients/widget.1.2.min.js",!document.getElementById(t.id)&&document.body)&&(i.parentNode.insertBefore(t,i),t.onerror=f)})(widgetOptions)
+    </script>
+    <!-- End of Glassix Chat Widget -->
 
 
 <script type="text/javascript">
