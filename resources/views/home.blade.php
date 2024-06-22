@@ -634,7 +634,7 @@
                                     </div>
                                     <div class="contact-content">
                                         <h4>Phone</h4>
-                                        <p>+916289295096</p>
+                                        <p>+917984322008</p>
                                     </div>
                                 </div>
                             </div>
@@ -645,7 +645,7 @@
                                     </div>
                                     <div class="contact-content">
                                         <h4>Email</h4>
-                                        <p>support@freeschoolapp.com</p>
+                                        <p>support@eschool.co.cyberwithchirag.info</p>
                                     </div>
                                 </div>
                             </div>
@@ -656,7 +656,7 @@
                                     </div>
                                     <div class="contact-content">
                                         <h4>Address</h4>
-                                        <p>Review India Building Nowapara Sukanta Pally Road Kolkata 700059</p>
+                                        <p>Ahmedabad</p>
                                     </div>
                                 </div>
                             </div>
@@ -702,14 +702,14 @@
                                 </div>
                                 <!-- End Single Widget -->
                             </div>
-                            <div class="col-lg-4 col-md-6 col-12">
+                            <div class="col-lg-8 col-md-8 col-12">
                                 <!-- Single Widget -->
                                 <div class="single-footer f-link address">
                                     <h3>Address</h3>
                                     <ul>
                                         <li class="clearfix"><i class="lni lni-map-marker"></i> <div style="margin-left: 47px;">Shyamal crossroad, ahmedabad 380015</div></li>
                                         <li class="clearfix"><i class="lni lni-phone"></i> +91 7984322008</li>
-                                        <li class="clearfix"><i class="lni lni-envelope"></i> support@eschool.com</li>
+                                        <li class="clearfix"><i class="lni lni-envelope"></i> support@eschool.co.cyberwithchirag.info</li>
                                     </ul>
                                 </div>
                                 <!-- End Single Widget -->
