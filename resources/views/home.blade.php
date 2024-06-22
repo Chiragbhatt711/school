@@ -159,115 +159,42 @@
                 </div>
             </div>
             <div class="row">
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
-                        <i class="fas fa-headphones"></i>
-                        <h3>Online Course Facilities</h3>
-                        <p>Students and teachers can utilize online course facilities to access digital learning materials, engage in discussions, submit assignments, communicate with peers and educators, and stay connected with academic resources.</p>
+                        <h3>Multiple Schools</h3>
+                        <p>ESchool has multi school capabilities and can be used to run multiple schools at once.</p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
-                        <i class="fas fa-qrcode"></i>
-                        <h3>QR Attendance</h3>
-                        <p>Students simply scan a unique QR code using their mobile devices, and the system automatically registers their presence. This contactless and user-friendly feature streamlines attendance tracking and enhances the overall user experience.</p>
+                        <h3>Student Information System</h3>
+                        <p>Store and manage student information easily</p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fas fa-credit-card"></i>
-                        <h3>Powerfull Fees Management</h3>
-                        <p>E School is integrated with the most advanced fee management features like  Automated Fee Collection, Fee Tracking, Fee Structure Customization, Financial Reports, Notifications, Fee Waivers and Scholarships, and many more.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
-                        <i class="fas fa-id-card-alt"></i>
-                        <h3>ID Card Generator</h3>
-                        <p>The ID Card Generator feature in your E School allows you to create and customize identification cards, Certificate and other Documents for students, staff, or participants.</p>
+                        <h3>Exam Records Management and Result Checking</h3>
+                        <p>Record and publish exam results with ease</p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
-                        <i class="fas fa-headphones"></i>
-                        <h3>Online Fee collection</h3>
-                        <p>The E School includes an inbuilt Online Fee Collection facility, which enables convenient and secure payment of fees through many online methods as per parents' convenience.</p>
+                        <h3>Timetable Management</h3>
+                        <p>Create, manage and edit timetables.</p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-registered"></i>
-                        <h3>Custom domain name</h3>
-                        <p>The Custom Domain facility in your E School allows schools and educational institutions to personalize their online presence by using their own custom domain name.</p>
+                        <h3>Fee Management</h3>
+                        <p>Create fee invoices and record collected payments</p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
-                        <i class="fa fa-calendar"></i>
-                        <h3>Events Management</h3>
-                        <p>Events Management in your E School facilitates the planning, organization, and promotion of various school-related events. you can manage them as per your requirements.</p>
+                        <h3>Custom Grading system for different class groups</h3>
+                        <p>Create custom grading systems for different class groups</p>
                     </div>
-                    <!-- End Single Feature -->
                 </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
-                        <i class="fa fa-bed"></i>
-                        <h3>Hostel Management</h3>
-                        <p>Hostel management features in your E School are designed to help educational institutions efficiently oversee and administer their on-campus accommodations.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-users"></i>
-                        <h3>Human Resource</h3>
-                        <p>Human Resource Management (HRM) in the context of your E School refers to the capability to efficiently handle various HR-related tasks within the educational institution.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay="0.2s">
-                        <i class="fa fa-list-alt"></i>
-                        <h3>Inventory Management</h3>
-                        <p>Inventory Management within your E School involves tracking and controlling the school's physical and digital assets efficiently.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay="0.4s">
-                        <i class="fa fa-television"></i>
-                        <h3>Live Class</h3>
-                        <p>The "live class with Zoom" feature in your app allows for real-time, interactive online classes through the Zoom video conferencing platform</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay="0.6s">
-                        <i class="fa fa-graduation-cap"></i>
-                        <h3>Online Exam</h3>
-                        <p>Online exam functionality in your app allows schools and educational institutions to conduct assessments and tests digitally. by providing a unique id.</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                                </div>
             </div>
         </div>
     </section>
