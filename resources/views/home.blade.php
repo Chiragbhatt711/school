@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>E School, One Stop Solution for all Smart School</title>
-    <meta name="keyword" content="Free school management software, School administration software, Student information system, Education management software, Online gradebook, Classroom management, Teacher scheduling, Student attendance tracking, Parent-teacher communication, School records management, Exam and assessment management, Student enrollment system, Timetable and scheduling, Fee management, Academic management, Report card generation, School communication platform, Learning management system &#40;LMS&#41;, School ERP " />
-    <meta name="description" content="E School - One-stop solution to "Unlock the potential of education with our free school management software and school app. Simplify administrative tasks, enhance communication, and keep parents, teachers, and students connected. Get started for free and transform the way you manage your school!"" />
+    <meta name="keyword" content="E school management software,e schooling,education connect,manage classroom,students with teacher,schools admin,schools of education,school online,educational institution,education website,resources students,student information system,education online classes,student info system,eschool, multi-school management, school management system, student management, education software, school administration, educational technology" />
+    <meta name="description" content="'E School - One-stop solution to 'Unlock the potential of education with our free school management software and school app. Simplify administrative tasks, enhance communication, and keep parents, teachers, and students connected. Get started for free and transform the way you manage your school!" />
     <meta name="author" content="E School">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/favicon.jpg') }}" />
@@ -25,16 +25,15 @@
     <link rel="stylesheet" href="{{ asset('front/css/sweetalert-custom.css') }}">
     <link rel="stylesheet" href="{{ asset('front/css/saas_main.css') }}" />
 
-    <!-- Google Analytics -->
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JZTESMFGZH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXF51R2FBR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-JZTESMFGZH');
-</script>
+    gtag('config', 'G-EXF51R2FBR');
+    </script>
     <!-- Theme Color Options -->
     <script type="text/javascript">
         document.documentElement.style.setProperty('--thm-primary', '#906bff');
@@ -129,18 +128,18 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="hero-content">
-                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">"E School: Empower Your School for Free"</h1>
-                        <p class="wow fadeInLeft" data-wow-delay=".6s">"Experience the future of education with our "E School" where you can Connect, communicate, and collaborate effortlessly with students, parents, and teachers.</p>
-                        {{-- <div class="button wow fadeInLeft" data-wow-delay=".8s">
-                        <a href="https://freeschoolapp.com/demoschool" class="btn"><i class='fas fa-globe'></i> Demo School</a><a href="https://freeschoolapp.com/#pricing" class="btn btn-alt"><i class='fas fa-coins'></i> Plan Price</a></div> --}}
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">"E School: Empower Your School"</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">"Experience the future of education with our "E School" where you can Connect, communicate, and collaborate effortlessly with students, parents, and teachers."</p>
+                        <div class="button wow fadeInLeft" data-wow-delay=".8s">
+                        <a href="{{ route('register') }}" class="btn"><i class='fas fa-globe'></i> Regester Your School</a><a href="#pricing" class="btn btn-alt"><i class='fas fa-coins'></i> Plan Price</a></div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-7 col-md-12 col-12">
+                <div class="col-lg-7 col-md-12 col-12">
                     <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="https://freeschoolapp.com/assets/frontend/images/saas/0756c234a5441801d0e021c41252d0f6.png" alt="#">
+                        {{--  <img src="https://freeschoolapp.com/assets/frontend/images/saas/0756c234a5441801d0e021c41252d0f6.png" alt="#">  --}}
                         <img class="overly" src="https://freeschoolapp.com/assets/frontend/images/saas/slider_over.png" alt="#">
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </section>
@@ -788,7 +787,7 @@
             </div>
             <div class="modal-body">
                 <form action="https://freeschoolapp.com/saas_website/register" class="school-reg frm-submit-data" enctype="multipart/form-data" method="post" accept-charset="utf-8">
-                                                                                                        <input type="hidden" name="school_csrf_name" value="001d9bde5e5442936d05448770755c3d" />
+                    <input type="hidden" name="school_csrf_name" value="001d9bde5e5442936d05448770755c3d" />
                 <input type="hidden" name="package_id" value="" id="packageID">
                 <section class="card pg-fw mb-4 mt-2">
                     <div class="card-body">
