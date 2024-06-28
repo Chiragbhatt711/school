@@ -25,15 +25,6 @@
     <link rel="stylesheet" href="{{ asset('front/css/sweetalert-custom.css') }}">
     <link rel="stylesheet" href="{{ asset('front/css/saas_main.css') }}" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXF51R2FBR"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-EXF51R2FBR');
-    </script>
     <!-- Theme Color Options -->
     <script type="text/javascript">
         document.documentElement.style.setProperty('--thm-primary', '#906bff');
@@ -56,7 +47,15 @@
             });
         });
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXF51R2FBR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-EXF51R2FBR');
+    </script>
 </head>
 <body>
     <!-- Preloader -->
@@ -212,7 +211,7 @@
                 </div>
             </div>
             <div class="row">
-                                <div class="col-md-6 col-xl-4 col-xxl-3 pp-plans-container wow fadeInUp" data-wow-delay="0.2s">
+                {{--  <div class="col-md-6 col-xl-4 col-xxl-3 pp-plans-container wow fadeInUp" data-wow-delay="0.2s">
                     <div class="pp-plans pxp-is-featured">
                         <div class="pp-plans-top">
                                                     <div class="pp-plans-featured-label">Recommended</div>
@@ -259,7 +258,7 @@
                                                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  --}}
                             <div class="col-md-6 col-xl-4 col-xxl-3 pp-plans-container wow fadeInUp" data-wow-delay="0.4s">
                     <div class="pp-plans pxp-is-featured">
                         <div class="pp-plans-top">
@@ -272,7 +271,7 @@
 
                                                     <div class="discount">
                                 ₹1000.0                            </div>
-                            ₹800.0<span>/ 1 Months </span>
+                            ₹700.0<span>/ 1 Months </span>
                                                         </div>
                             </div>
                             <div class="pp-plans-list">
@@ -281,25 +280,25 @@
                                     <li><i class="lni lni-user"></i>Parents Limit : 175</li>
                                     <li><i class="lni lni-user"></i>Staff Limit : 25</li>
                                     <li><i class="lni lni-user"></i>Teacher Limit : 25</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Attachments Book</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Attachments Book</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Attendance</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Card Management</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Certificate</li>
-                                                                            <li><i class="lni lni-close"></i> Custom Domain</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Card Management</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Certificate</li>  --}}
+                                                                            {{--  <li><i class="lni lni-close"></i> Custom Domain</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Events</li>
                                                                             <li><i class="lni lni-checkmark"></i> Homework</li>
-                                                                            <li><i class="lni lni-close"></i> Hostel</li>
-                                                                            <li><i class="lni lni-close"></i> Human Resource</li>
-                                                                            <li><i class="lni lni-close"></i> Inventory</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Library</li>
+                                                                            {{--  <li><i class="lni lni-close"></i> Hostel</li>  --}}
+                                                                            {{--  <li><i class="lni lni-close"></i> Human Resource</li>  --}}
+                                                                            {{--  <li><i class="lni lni-close"></i> Inventory</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Library</li>  --}}
                                                                             <li><i class="lni lni-close"></i> Live Class</li>
                                                                             <li><i class="lni lni-checkmark"></i> Office Accounting</li>
                                                                             <li><i class="lni lni-checkmark"></i> Online Exam</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Reception</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Reception</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Student Accounting</li>
-                                                                            <li><i class="lni lni-close"></i> Transport</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Website</li>
+                                                                            {{--  <li><i class="lni lni-close"></i> Transport</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Website</li>  --}}
                                                                     </ul>
                             </div>
                         </div>
@@ -321,8 +320,8 @@
 
 
                                                     <div class="discount">
-                                ₹5500.0                            </div>
-                            ₹4500.0<span>/ 6 Months </span>
+                                ₹4500.0                            </div>
+                            ₹3500.0<span>/ 6 Months </span>
                                                         </div>
                             </div>
                             <div class="pp-plans-list">
@@ -331,25 +330,25 @@
                                     <li><i class="lni lni-user"></i>Parents Limit : 350</li>
                                     <li><i class="lni lni-user"></i>Staff Limit : 45</li>
                                     <li><i class="lni lni-user"></i>Teacher Limit : 45</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Attachments Book</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Attachments Book</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Attendance</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Card Management</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Certificate</li>
-                                                                            <li><i class="lni lni-close"></i> Custom Domain</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Card Management</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Certificate</li>  --}}
+                                                                            {{--  <li><i class="lni lni-close"></i> Custom Domain</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Events</li>
                                                                             <li><i class="lni lni-checkmark"></i> Homework</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Hostel</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Human Resource</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Inventory</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Library</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Hostel</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Human Resource</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Inventory</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Library</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Live Class</li>
                                                                             <li><i class="lni lni-checkmark"></i> Office Accounting</li>
                                                                             <li><i class="lni lni-checkmark"></i> Online Exam</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Reception</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Reception</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Student Accounting</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Transport</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Website</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Transport</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Website</li>  --}}
                                                                     </ul>
                             </div>
                         </div>
@@ -371,8 +370,8 @@
 
 
                                                     <div class="discount">
-                                ₹12000.0                            </div>
-                            ₹10500.0<span>/ 1 Years </span>
+                                ₹10000.0                            </div>
+                            ₹8000.0<span>/ 1 Years </span>
                                                         </div>
                             </div>
                             <div class="pp-plans-list">
@@ -381,25 +380,25 @@
                                     <li><i class="lni lni-user"></i>Parents Limit : 500</li>
                                     <li><i class="lni lni-user"></i>Staff Limit : 100</li>
                                     <li><i class="lni lni-user"></i>Teacher Limit : 100</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Attachments Book</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Attachments Book</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Attendance</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Card Management</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Certificate</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Custom Domain</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Bulk Sms And Email</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Card Management</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Certificate</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Custom Domain</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Events</li>
                                                                             <li><i class="lni lni-checkmark"></i> Homework</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Hostel</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Human Resource</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Inventory</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Library</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Hostel</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Human Resource</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Inventory</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Library</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Live Class</li>
                                                                             <li><i class="lni lni-checkmark"></i> Office Accounting</li>
                                                                             <li><i class="lni lni-checkmark"></i> Online Exam</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Reception</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Reception</li>  --}}
                                                                             <li><i class="lni lni-checkmark"></i> Student Accounting</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Transport</li>
-                                                                            <li><i class="lni lni-checkmark"></i> Website</li>
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Transport</li>  --}}
+                                                                            {{--  <li><i class="lni lni-checkmark"></i> Website</li>  --}}
                                                                     </ul>
                             </div>
                         </div>
