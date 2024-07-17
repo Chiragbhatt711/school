@@ -707,7 +707,7 @@
                                     <ul>
                                         <li class="clearfix"><i class="lni lni-map-marker"></i> <div style="margin-left: 47px;">Shyamal crossroad, ahmedabad 380015</div></li>
                                         <li class="clearfix"><i class="lni lni-phone"></i> +91 7984322008</li>
-                                        <li class="clearfix"><i class="lni lni-envelope"></i> support@eschool.co.cyberwithchirag.info</li>
+                                        <li class="clearfix"><i class="lni lni-envelope"></i> contactus@rudratechnovation.com</li>
                                     </ul>
                                 </div>
                                 <!-- End Single Widget -->
