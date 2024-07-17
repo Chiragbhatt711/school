@@ -643,7 +643,7 @@
                                     </div>
                                     <div class="contact-content">
                                         <h4>Email</h4>
-                                        <p>support@eschool.co.cyberwithchirag.info</p>
+                                        <p>contactus@rudratechnovation.com</p>
                                     </div>
                                 </div>
                             </div>
